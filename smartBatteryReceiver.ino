@@ -52,16 +52,4 @@ void loop(){
 
  
 
-/*
-void goToSleep ()
-  {
-  set_sleep_mode(SLEEP_MODE_PWR_DOWN);
-  ADCSRA = 0;            // turn off ADC
-  power_all_disable ();  // power off ADC, Timer 0 and 1, serial interface
-  sleep_enable();
-  sleep_cpu();                             
-  sleep_disable();   
-  power_all_enable();    // power everything back on
-  }  // end of goToSleep
 
-    */
