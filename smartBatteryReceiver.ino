@@ -1,3 +1,16 @@
+/* ******************************************************************************* *
+ Monitor laptop Battery 220 V charger
+ using ATTiny85 avr uC :
+ -------------------------
+ - POWER DOWN sleep mode , Internal crystal = 8Mhz
+ - Wake up when receiving signal from HC06 bluetooth module
+ - Using SoftwareSerial library to communicate with blth as UART module isn't 
+   embedded in Attiny85 uC
+ - Date   : 14 / 12 / 2020 
+ - Author : MohammedHemed
+ - SmartBatteryMonitor_v1
+ * ******************************************************************************* */
+
 #include <SoftwareSerial.h>
 #include <avr/sleep.h>    // Sleep Modes
 #include <avr/power.h>
